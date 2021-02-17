@@ -1,0 +1,142 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,300&amp;display=swap");
+
+body {
+  background: #f6f5f5;
+  color: #276678;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+  color: #1687a7;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 13px;
+}
+h1 {
+  color: #276678;
+  font-size: 25px;
+  font-weight: 700;
+}
+h2 {
+  color: #1687a7;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 600;
+}
+a {
+  font-family: 'Montserrat:ital', sans-serif;
+  text-decoration: none;
+  color: #276678;
+  font-weight: 300;
+  font-size: 30px;
+}
+a:hover {
+  color: rgb(184, 37, 0);
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  h1, h2, h3 {
+    line-height: 24px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-black {
+  /* background-color: rgb(34, 34, 34); */
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(82, 82, 82);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  background-color: #6b0f1a;
+  background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+}
+
+.footer-black > h2 {
+color: white;
+
+}
+
+.footer-black > ul > li > a > i {
+color: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  font-size: 20px;
+  
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.233);
+  color: white;
+}
+.list {
+  list-style: none;
+  padding-left: 0px;
+  
+}
+
+.list > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list i:hover {
+  color: rgb(255, 187, 0);  
+}
+
+.list > i {
+  font-size: 41px;
+  color: rgb(253, 136, 136);
+}
+.list-inline > i:hover {
+  color: rgb(155, 18, 0);
+}
+
+.social {
+  color: rgb(155, 18, 0);
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
